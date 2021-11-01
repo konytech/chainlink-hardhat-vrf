@@ -97,4 +97,8 @@ lint/tmp/
 # lint/reports/
 
 node_modules
-node_modules
+
+# hardhat
+hardhat/typechain
+hardhat/cache
+hardhat/artifacts
