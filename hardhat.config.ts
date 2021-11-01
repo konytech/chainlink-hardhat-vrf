@@ -20,6 +20,7 @@ dotenv.config();
 
 const config: HardhatUserConfig = {
   solidity: "0.8.9",
+  defaultNetwork: "kovan",
   networks: {
     kovan: {
       url: process.env.KOVAN_URL || "",
