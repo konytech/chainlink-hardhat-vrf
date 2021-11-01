@@ -120,7 +120,7 @@ Request a new random number from Chainlink VRF:
    
 The request follows Chainlink's <a href="https://docs.chain.link/docs/architecture-request-model/">Basic Request Model</a> in which <a href="hardhat/contracts/RandomNumberConsumer.sol">RandomNumberConsumer.sol</a> embodies ChainlinkClient.
   
-<img src="https://docs.chain.link/files/881ade6-Simple_Architecture_Diagram_1_V1.png"></img>
+<img src="images/chainlink-basic-request-model.png"></img>
    
 ⚠️Wait 60 seconds for the oracle to fill the random number request before reading the result
 See the <a href="hardhat/tasks/request-random-number.ts">request-random-number task</a> for more details.
