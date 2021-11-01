@@ -1,0 +1,12 @@
+{
+  "name": "chainlink-hardhat-vrf",
+  "version": "1.0.0",
+  "description": "Chainlink VRF implementation using the Hardhat development environment",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "hardhat": "^2.6.7"
+  }
+}
