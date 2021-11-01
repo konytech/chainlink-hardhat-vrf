@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Chainlink VRF implementation using the Hardhat development environment",
   "scripts": {
+    "test": "hardhat test hardhat/test/integration/RandomNumberConsumer_int_test.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
